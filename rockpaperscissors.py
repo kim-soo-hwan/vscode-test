@@ -15,7 +15,7 @@ while True:
     # tie
     if player == computer:
         print("Tie!")  
-        
+    
     # rock
     elif player == "Rock":
         if computer == "Scissors":
@@ -35,4 +35,14 @@ while True:
         if computer == "Paper":
             print("You win!")
         else:
-            print("You lose!")        
+            print("You lose!")       
+    
+    # quit
+    else:
+        break
+
+    # new line
+    print()
+
+# bye
+print("Bye!") 
